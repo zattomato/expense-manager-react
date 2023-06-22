@@ -3,7 +3,7 @@ import * as firebase from "firebase";
 const config = {
     apiKey: `${process.env.REACT_APP_FIREBASE_API_KEY}`,
     authDomain: "expense-manager-react.firebaseapp.com",
-    databaseURL: "https://expense-manager-react.firebaseio.com",
+    databaseURL: "https://expense-manager-react.firebase.io",
     projectId: "expense-manager-react",
     storageBucket: "expense-manager-react.appspot.com",
     messagingSenderId: "847044394910"
